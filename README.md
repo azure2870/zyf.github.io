@@ -1,3 +1,3 @@
-# pianfan.github.io
+#zyf.github.io
 
-My Personal Blog via GitHub
+一个统计知识学习网站 
