@@ -2,7 +2,7 @@ name: "统计学仓库"
 description: "带你打开统计学的大门"
 
 avatar: https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/images/5e0f3f4a0320ad2aaf74ee2c94705f6.jpg
-favicon: https://pianfan.github.io/images/favicon.ico
+favicon: https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/images/work.ico
 
 navigation:
   - name: 首页
@@ -18,16 +18,16 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: xiongyunhan@outlook.com
+  email: zyfxlw121411@outlook.com
   facebook:
   github: azure2870
   rss: # just type anything here for a working RSS icon
   twitter: 
   youtube:
 
-footer-text: Copyright (c) 2024 Pianfan
+footer-text:  2024/11/4 by zyf
 
-url: https://pianfan.github.io
+url: https://zyf.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
