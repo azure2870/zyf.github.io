@@ -1,7 +1,7 @@
-name: "Pianfan's blog"
-description: "翩帆的个人技术博客"
+name: "统计学仓库"
+description: "带你打开统计学的大门"
 
-avatar: https://pianfan.github.io/images/avatar.png
+avatar: https://zyf.github.io/images/avatar.png
 favicon: https://pianfan.github.io/images/favicon.ico
 
 navigation:
@@ -20,7 +20,7 @@ footer-links:
   zhihu: 
   email: xiongyunhan@outlook.com
   facebook:
-  github: pianfan
+  github: azure2870
   rss: # just type anything here for a working RSS icon
   twitter: 
   youtube:
