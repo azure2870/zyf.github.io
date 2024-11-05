@@ -4,7 +4,17 @@
   <body>
     {% include nav.html %}
 
-    {% if page.toc==true %}
+    {% if page.toc == true %}
+      <!-- 数学公式渲染配置 -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+      <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+          }
+        });
+      </script>
       <aside class="toc">
         {% include toc.html html=content %}
       </aside>
@@ -19,7 +29,7 @@
     {% include analytics.html %}
   </body>
 
-  {% if page.toc==true %}
+  {% if page.toc == true %}
   <script>
     document.getElementById("main").classList.add("withtoc");
   </script>
@@ -29,6 +39,5 @@
     <footer class="footer">
       {% include footer.html %}
     </footer>
-
-
+  </div>
 </html>
