@@ -1,7 +1,7 @@
 name: "统计学仓库"
 description: "带你打开统计学的大门"
 
-avatar: https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/images/5e0f3f4a0320ad2aaf74ee2c94705f6.jpg
+avatar: https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/images/%E5%A4%B4%E5%83%8F.png
 favicon: https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/images/work.ico
 
 navigation:
@@ -24,6 +24,7 @@ footer-links:
   rss: rss# just type anything here for a working RSS icon
   twitter: 
   youtube:
+  billbill: 学不懂概率论
 
 footer-text:  2024/11/4 by zyf
 
