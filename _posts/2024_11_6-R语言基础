@@ -1,5 +1,14 @@
-
-
+---
+layout: post
+title: "R语言基础"
+date:   2024-11-5
+tags: [web]
+comments: true
+math: true
+author: 学不懂概率论
+---
+本篇文章主要介绍R语言基础语法，用于练习使用。
+<!-- more -->
 
 ##while循环和repeat循环的辨析
 #repeat循环
