@@ -52,11 +52,14 @@ fitted_values <- fitted(aov_data1)
 qqnorm(residuals)
 qqline(residuals, col = "red", lwd = 2)
 ```
+![](https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/zyf.github.io/images/20241210224909.png)
+
 ### 残差与拟合值的散点图
 ```r
 plot(fitted_values, residuals, pch = 19, col = 'blue')
 abline(h = 0, col = "red", lwd = 2)
 ```
+![](https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/zyf.github.io/images/20241210224930.png)
 ###  绘制因子A的残差箱线图
 ```r
 library(ggplot2)
@@ -81,8 +84,8 @@ p2 <- ggplot(data1, aes(x = B, y = residuals, fill = B)) +
 ```r
 library(patchwork)  # 用于拼接多个图
 p1 / p2  # 竖直排列p1和p2
-``` 
-
+```
+![](https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/zyf.github.io/images/20241210224944.png)
 # 有交互效应的双因素方差分析
 
 ## 1. 读取和整理数据
@@ -116,12 +119,15 @@ fitted_values <- fitted(fit)
 qqnorm(residuals)
 qqline(residuals, col = "red", lwd = 2)
 ```
+![](https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/zyf.github.io/images/20241210225601.png)
 ### 残差与拟合值的散点图
 ```r
 plot(fitted_values, residuals, pch = 19, col = 'blue',
      xlab = "拟合值", ylab = "残差", main = "拟合值与残差的散点图")
 abline(h = 0, col = "red", lwd = 2)
 ```
+![](https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/zyf.github.io/images/20241210225614.png)
+
 ### 绘制因子A的残差箱线图
 ```r
 p1 <- ggplot(data1, aes(x = den, y = residuals, fill = den)) + 
@@ -145,6 +151,7 @@ p2 <- ggplot(data1, aes(x = tem, y = residuals, fill = tem)) +
 library(patchwork)  # 用于拼接多个图
 p1 / p2  # 竖直排列p1和p2
 ```
+![](https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/zyf.github.io/images/20241210225637.png)
 
 ## 5.交互效应可视化
 ```r
@@ -153,4 +160,4 @@ interaction.plot(data1$den, data1$tem, data1$x,
                  xlab = "浓度", ylab = "质量指标", 
                  main = "浓度和温度的交互效应图")
 ```
-
+![](https://cdn.jsdelivr.net/gh/azure2870/zyf.github.io/zyf.github.io/images/20241210225647.png)
