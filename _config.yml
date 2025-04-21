@@ -17,11 +17,11 @@ paginate: 8
 excerpt_separator: <!-- more -->
 
 footer-links:
-  zhihu: 
+  zhihu: https://www.zhihu.com/people/hui-yi-28-51-52
   email: zyfxlw121411@outlook.com
   facebook:
   github: azure2870
-  rss: rss# just type anything here for a working RSS icon
+  rss: /feed.xml    #just type anything here for a working RSS icon
   twitter: 
   youtube:
 
